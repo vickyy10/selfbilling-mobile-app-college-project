@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.selfbilling">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/money"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/money"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SelfBilling"
+        tools:targetApi="31">
+        <activity
+            android:name=".custom4"
+            android:exported="false" />
+        <activity
+            android:name=".costum3"
+            android:exported="false" />
+        <activity android:name=".payment_details"
+            android:exported="false"/>
+        <activity android:name=".user_add_to_cart_1"
+            android:exported="false"/>
+        <activity android:name=".user_add_to_cart_3"
+            android:exported="false"/>
+        <activity android:name=".user_generate_bill"
+            android:exported="false"/>
+        <activity android:name=".edit_add_to_cart"
+            android:exported="false"/>
+        <activity android:name=".generate_bill_1"
+            android:exported="false"/>
+        <activity android:name=".generate_bill_2"
+            android:exported="false"/>
+        <activity android:name=".generate_bill_3"
+            android:exported="false"/>
+        <activity android:name=".edit_generate_bill"
+            android:exported="false"/>
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Viewreply"
+            android:exported="false" />
+        <activity
+            android:name=".Sendfeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Sendcomplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Addtocart"
+            android:exported="false" />
+        <activity
+            android:name=".Viewproduct"
+            android:exported="false" />
+        <activity
+            android:name=".Addproduct"
+            android:exported="false" />
+        <activity
+            android:name=".GenerateBill"
+            android:exported="false" />
+        <activity
+            android:name=".userhome"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

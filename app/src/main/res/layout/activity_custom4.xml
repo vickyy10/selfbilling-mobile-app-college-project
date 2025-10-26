@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".custom4">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="106dp"
+            android:layout_height="45dp"
+            android:text="PRODUCT" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="111dp"
+            android:layout_height="match_parent"
+            android:text="IMAGE" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:text="DETAILS" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:text="PRICE" />
+    </TableRow>
+</LinearLayout>
